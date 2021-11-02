@@ -3,19 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12FAC7E14A00BFC4E69E1B5F /* Pods_FrontPet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9C1E86964FFA271DDA3BA88 /* Pods_FrontPet.framework */; };
+		E654AD0B2730C4C6007F95CB /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E654AD0A2730C4C6007F95CB /* TaskViewController.swift */; };
+		E654AD0D2730C675007F95CB /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E654AD0C2730C675007F95CB /* ViewExtension.swift */; };
+		E654AD122730DC4E007F95CB /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E654AD102730DC4E007F95CB /* TaskTableViewCell.swift */; };
+		E654AD132730DC4E007F95CB /* TaskTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E654AD112730DC4E007F95CB /* TaskTableViewCell.xib */; };
+		E654AD162730DD98007F95CB /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = E654AD152730DD98007F95CB /* Task.swift */; };
+		E6813CF4272BA6C100A2C9FE /* TextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6813CF3272BA6C100A2C9FE /* TextFieldExtension.swift */; };
+		E6813CF7272BA98700A2C9FE /* PickerViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6813CF6272BA98700A2C9FE /* PickerViewHelper.swift */; };
+		E6813CF9272BB09300A2C9FE /* ValidationsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6813CF8272BB09300A2C9FE /* ValidationsHelper.swift */; };
 		E6ABA666272A3F8F0052985A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6ABA665272A3F8F0052985A /* AppDelegate.swift */; };
 		E6ABA668272A3F8F0052985A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6ABA667272A3F8F0052985A /* SceneDelegate.swift */; };
 		E6ABA66A272A3F8F0052985A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6ABA669272A3F8F0052985A /* ViewController.swift */; };
 		E6ABA66D272A3F8F0052985A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6ABA66B272A3F8F0052985A /* Main.storyboard */; };
 		E6ABA66F272A3F8F0052985A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6ABA66E272A3F8F0052985A /* Assets.xcassets */; };
 		E6ABA672272A3F8F0052985A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6ABA670272A3F8F0052985A /* LaunchScreen.storyboard */; };
+		E6ABA67B272A41F10052985A /* ButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6ABA67A272A41F10052985A /* ButtonExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D7A94FF61FC100A9C197FE6 /* Pods-FrontPet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrontPet.debug.xcconfig"; path = "Target Support Files/Pods-FrontPet/Pods-FrontPet.debug.xcconfig"; sourceTree = "<group>"; };
+		A42912485A78D0DA5B8ACDC8 /* Pods-FrontPet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrontPet.release.xcconfig"; path = "Target Support Files/Pods-FrontPet/Pods-FrontPet.release.xcconfig"; sourceTree = "<group>"; };
+		E654AD0A2730C4C6007F95CB /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		E654AD0C2730C675007F95CB /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		E654AD102730DC4E007F95CB /* TaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
+		E654AD112730DC4E007F95CB /* TaskTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskTableViewCell.xib; sourceTree = "<group>"; };
+		E654AD152730DD98007F95CB /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		E6813CF3272BA6C100A2C9FE /* TextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExtension.swift; sourceTree = "<group>"; };
+		E6813CF6272BA98700A2C9FE /* PickerViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewHelper.swift; sourceTree = "<group>"; };
+		E6813CF8272BB09300A2C9FE /* ValidationsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationsHelper.swift; sourceTree = "<group>"; };
 		E6ABA662272A3F8F0052985A /* FrontPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrontPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6ABA665272A3F8F0052985A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6ABA667272A3F8F0052985A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +44,8 @@
 		E6ABA66E272A3F8F0052985A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6ABA671272A3F8F0052985A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6ABA673272A3F8F0052985A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6ABA67A272A41F10052985A /* ButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExtension.swift; sourceTree = "<group>"; };
+		E9C1E86964FFA271DDA3BA88 /* Pods_FrontPet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FrontPet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12FAC7E14A00BFC4E69E1B5F /* Pods_FrontPet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE00AA4E4CB9598F51018DA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9C1E86964FFA271DDA3BA88 /* Pods_FrontPet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E654AD142730DD8F007F95CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E654AD152730DD98007F95CB /* Task.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E6813CF5272BA97800A2C9FE /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E6813CF6272BA98700A2C9FE /* PickerViewHelper.swift */,
+				E6813CF8272BB09300A2C9FE /* ValidationsHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		E6ABA659272A3F8F0052985A = {
 			isa = PBXGroup;
 			children = (
 				E6ABA664272A3F8F0052985A /* FrontPet */,
 				E6ABA663272A3F8F0052985A /* Products */,
+				FDF043164B6FE424471CC8E0 /* Pods */,
+				CE00AA4E4CB9598F51018DA0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +106,9 @@
 		E6ABA664272A3F8F0052985A /* FrontPet */ = {
 			isa = PBXGroup;
 			children = (
+				E654AD142730DD8F007F95CB /* Model */,
+				E6813CF5272BA97800A2C9FE /* Helper */,
+				E6ABA679272A41E10052985A /* Extension */,
 				E6ABA665272A3F8F0052985A /* AppDelegate.swift */,
 				E6ABA667272A3F8F0052985A /* SceneDelegate.swift */,
 				E6ABA669272A3F8F0052985A /* ViewController.swift */,
@@ -63,8 +116,30 @@
 				E6ABA66E272A3F8F0052985A /* Assets.xcassets */,
 				E6ABA670272A3F8F0052985A /* LaunchScreen.storyboard */,
 				E6ABA673272A3F8F0052985A /* Info.plist */,
+				E654AD0A2730C4C6007F95CB /* TaskViewController.swift */,
+				E654AD102730DC4E007F95CB /* TaskTableViewCell.swift */,
+				E654AD112730DC4E007F95CB /* TaskTableViewCell.xib */,
 			);
 			path = FrontPet;
+			sourceTree = "<group>";
+		};
+		E6ABA679272A41E10052985A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E6ABA67A272A41F10052985A /* ButtonExtension.swift */,
+				E6813CF3272BA6C100A2C9FE /* TextFieldExtension.swift */,
+				E654AD0C2730C675007F95CB /* ViewExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		FDF043164B6FE424471CC8E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D7A94FF61FC100A9C197FE6 /* Pods-FrontPet.debug.xcconfig */,
+				A42912485A78D0DA5B8ACDC8 /* Pods-FrontPet.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +149,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6ABA676272A3F8F0052985A /* Build configuration list for PBXNativeTarget "FrontPet" */;
 			buildPhases = (
+				3BC64FDECBFCC49ED701DEB3 /* [CP] Check Pods Manifest.lock */,
 				E6ABA65E272A3F8F0052985A /* Sources */,
 				E6ABA65F272A3F8F0052985A /* Frameworks */,
 				E6ABA660272A3F8F0052985A /* Resources */,
+				C0F5780A8FB447BEE5EEAEDD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E654AD132730DC4E007F95CB /* TaskTableViewCell.xib in Resources */,
 				E6ABA672272A3F8F0052985A /* LaunchScreen.storyboard in Resources */,
 				E6ABA66F272A3F8F0052985A /* Assets.xcassets in Resources */,
 				E6ABA66D272A3F8F0052985A /* Main.storyboard in Resources */,
@@ -132,14 +210,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3BC64FDECBFCC49ED701DEB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FrontPet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0F5780A8FB447BEE5EEAEDD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FrontPet/Pods-FrontPet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FrontPet/Pods-FrontPet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FrontPet/Pods-FrontPet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E6ABA65E272A3F8F0052985A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6813CF7272BA98700A2C9FE /* PickerViewHelper.swift in Sources */,
+				E6813CF9272BB09300A2C9FE /* ValidationsHelper.swift in Sources */,
+				E654AD122730DC4E007F95CB /* TaskTableViewCell.swift in Sources */,
 				E6ABA66A272A3F8F0052985A /* ViewController.swift in Sources */,
+				E654AD162730DD98007F95CB /* Task.swift in Sources */,
+				E654AD0D2730C675007F95CB /* ViewExtension.swift in Sources */,
+				E6ABA67B272A41F10052985A /* ButtonExtension.swift in Sources */,
 				E6ABA666272A3F8F0052985A /* AppDelegate.swift in Sources */,
+				E6813CF4272BA6C100A2C9FE /* TextFieldExtension.swift in Sources */,
 				E6ABA668272A3F8F0052985A /* SceneDelegate.swift in Sources */,
+				E654AD0B2730C4C6007F95CB /* TaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +411,7 @@
 		};
 		E6ABA677272A3F8F0052985A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D7A94FF61FC100A9C197FE6 /* Pods-FrontPet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -293,15 +422,17 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.twon.FrontPet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		E6ABA678272A3F8F0052985A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A42912485A78D0DA5B8ACDC8 /* Pods-FrontPet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,10 +443,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.twon.FrontPet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
